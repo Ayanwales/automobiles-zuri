@@ -9,6 +9,22 @@ body {
   display: flex;
   place-items: center;
 }
+.link{
+  display:block;
+  justify-content: space-between;
+  align-items: center;
+}
+.link button{
+  padding:1.5rem;
+  font-size: 12px;
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: brown;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
 main {
   display: grid;
   grid-template-areas:
